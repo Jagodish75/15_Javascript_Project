@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: cornsilk;
+}
+.container {
+    box-shadow: 0 0 4px 4px darkslategray;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container p:first-child {
+    color: brown;
+    font-size: 46px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.container label {
+    font-size: larger;
+    margin-right: 10px;
+}
+#birthDay,
+#currentDate {
+    width: 160px;
+    height: 35px;
+    border: 1px solid salmon;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+}
+#calculateBtn {
+    color: white;
+    background-color: brown;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#calculateBtn:hover {
+    color: cyan;
+    background-color: darkred;
+}
